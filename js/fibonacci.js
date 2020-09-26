@@ -1,12 +1,25 @@
 const fibonacci = () => {
-    function getFibonacci(n) {
-        if (n < 2) {
-            return n;
+    let calculations = 0;
+
+    function getFibonacci() {
+        let cache = {};
+        return function fib(n) {
+            calculations++;
+
+            if (n in cache) {
+                return cache[n];
+            } else if (n < 2){
+                return n;
+            } else {
+                cache[n] = fib(n - 1) + fib(n - 2);
+                return cache[n];
+            }
         }
-        return getFibonacci(n-1) + getFibonacci(n-2);
     }
 
-    console.log(getFibonacci(8));
+    const getFib = getFibonacci();
+
+    console.log(getFib(10), calculations);
 };
 
 export default fibonacci;
