@@ -7,6 +7,7 @@ import maxChar from './js/maxChar.js';
 import recurringCharacter from './js/recurringCharacter.js';
 import factorial from './js/factorial.js';
 import fibonacci from './js/fibonacci.js';
+import fizzBuzz from './js/fizzBuzz.js';
 
 stringReverse();
 stringPalindrome();
@@ -15,3 +16,4 @@ maxChar();
 recurringCharacter();
 factorial();
 fibonacci();
+fizzBuzz();
