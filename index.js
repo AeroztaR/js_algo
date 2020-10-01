@@ -8,6 +8,7 @@ import recurringCharacter from './js/recurringCharacter.js';
 import factorial from './js/factorial.js';
 import fibonacci from './js/fibonacci.js';
 import fizzBuzz from './js/fizzBuzz.js';
+import arrayChunk from './js/arrayChunk.js';
 
 stringReverse();
 stringPalindrome();
@@ -17,3 +18,4 @@ recurringCharacter();
 factorial();
 fibonacci();
 fizzBuzz();
+arrayChunk();
