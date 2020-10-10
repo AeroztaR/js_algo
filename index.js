@@ -9,6 +9,7 @@ import factorial from './js/factorial.js';
 import fibonacci from './js/fibonacci.js';
 import fizzBuzz from './js/fizzBuzz.js';
 import arrayChunk from './js/arrayChunk.js';
+import anagram from './js/anagram.js';
 
 stringReverse();
 stringPalindrome();
@@ -19,3 +20,4 @@ factorial();
 fibonacci();
 fizzBuzz();
 arrayChunk();
+anagram();
