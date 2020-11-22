@@ -11,6 +11,7 @@ import fizzBuzz from './js/fizzBuzz.js';
 import arrayChunk from './js/arrayChunk.js';
 import anagram from './js/anagram.js';
 import capitalization from './js/capitalization.js';
+import vowels from './js/vowels.js';
 
 stringReverse();
 stringPalindrome();
@@ -23,3 +24,4 @@ fizzBuzz();
 arrayChunk();
 anagram();
 capitalization();
+vowels();
