@@ -12,6 +12,7 @@ import arrayChunk from './js/arrayChunk.js';
 import anagram from './js/anagram.js';
 import capitalization from './js/capitalization.js';
 import vowels from './js/vowels.js';
+import memoization from './js/memoization.js';
 
 stringReverse();
 stringPalindrome();
@@ -25,3 +26,4 @@ arrayChunk();
 anagram();
 capitalization();
 vowels();
+memoization();
