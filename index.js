@@ -13,6 +13,7 @@ import anagram from './js/anagram.js';
 import capitalization from './js/capitalization.js';
 import vowels from './js/vowels.js';
 import memoization from './js/memoization.js';
+import allNumSum from './js/allNumSum.js';
 
 stringReverse();
 stringPalindrome();
@@ -27,3 +28,4 @@ anagram();
 capitalization();
 vowels();
 memoization();
+allNumSum();
