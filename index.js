@@ -15,6 +15,7 @@ import vowels from './js/vowels.js';
 import memoization from './js/memoization.js';
 import allNumSum from './js/allNumSum.js';
 import classNamesTask from './js/classNamesTask.js';
+import singleNumber from './js/singleNumber.js';
 
 stringReverse();
 stringPalindrome();
@@ -31,3 +32,4 @@ vowels();
 memoization();
 allNumSum();
 classNamesTask();
+singleNumber();
