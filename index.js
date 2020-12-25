@@ -16,6 +16,7 @@ import memoization from './js/memoization.js';
 import allNumSum from './js/allNumSum.js';
 import classNamesTask from './js/classNamesTask.js';
 import singleNumber from './js/singleNumber.js';
+import debounce from './js/debounce.js';
 
 stringReverse();
 stringPalindrome();
@@ -33,3 +34,4 @@ memoization();
 allNumSum();
 classNamesTask();
 singleNumber();
+debounce();
