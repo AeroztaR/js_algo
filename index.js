@@ -17,6 +17,7 @@ import allNumSum from './js/allNumSum.js';
 import classNamesTask from './js/classNamesTask.js';
 import singleNumber from './js/singleNumber.js';
 import debounce from './js/debounce.js';
+import arrayShuffle from './js/arrayShuffle.js';
 
 stringReverse();
 stringPalindrome();
@@ -35,3 +36,4 @@ allNumSum();
 classNamesTask();
 singleNumber();
 debounce();
+arrayShuffle();
